@@ -213,3 +213,18 @@ Setelah itu, anda akan diteruskan ke laman dibawah ini dimana anda akan melakuka
 
 Pada bagian selanjutnya, pilih Improved MySQL(Native/mysqli) sebagai tipe *Database type* lalu klik *Next*
 ![installmoodle4](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle4.PNG)
+
+Kemudian, lengkapi rincian tentang Database Host, Database Name, Database User dan Database Password sesuai dengan data yang dibuat sebelumnya. Untuk Database Port dan Unix Socket nya dibiarkan kosong. Klik *Next*
+![installmoodle5](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle5.PNG)
+
+Pada bagian berikutnya, instalasi akan melakukan beberapa pemeriksaan server.
+![installmoodle8](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle8.PNG)
+
+Jika semua requirements sudah terpenuhi, klik *Continue*
+![installmoodle7](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle7.PNG)
+
+Pada bagian terakhir, lakukan pengisian data diri untuk membuat akun moodle seperti full name, nick name, city, email, username, password, etc. 
+Setelah data sudah terisi dan sesuai, akun anda berhasil dibuat dan akan menampilkan seperti gambar di bawah ini.
+![moodle web](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/moodleweb.JPG)
+
+Moodle sudah siap digunakan. 
