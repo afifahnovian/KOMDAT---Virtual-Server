@@ -2,11 +2,6 @@
 title: Instalasi Moodle dengan Virtual Server Ubuntu
 date: 2020
 ---
-# Moodle
-<p align="center">
-  <a href="">
-    <img src="https://github.com/intanaidarhmn/ViruzTack/blob/master/Artboard%201.png" alt="ViruzTack" width=260 height=150>
-  </a>
 
 
 
