@@ -126,6 +126,7 @@ Simpan perubahan dan keluar dari mysqld
 FLUSH PRIVILEGES;
 EXIT;
 ```
+![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/db.JPG)
 
 ### Step 5: Download Moodle versi terbaru
 
