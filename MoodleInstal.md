@@ -2,8 +2,17 @@
 title: Instalasi Moodle dengan Virtual Server Ubuntu
 date: 2020
 ---
+<p align="center">
+  <a href="">
+    <img src="https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/moodle.png" alt="Moodle" width=300 height=100>
+  </a>
 
+  <h3 align="center">Moodle</h3>
 
+  <p align="center">
+MOODLE (singkatan dari Modular Object-Oriented Dynamic Learning Environment) adalah paket perangkat lunak yang diproduksi untuk kegiatan belajar berbasis internet dan situs web yang menggunakan prinsip social constructionist pedagogy. MOODLE merupakan salah satu aplikasi dari konsep dan mekanisme belajar mengajar yang memanfaatkan teknologi informasi, yang dikenal dengan konsep pembelajaran elektronik atau e-learning. Moodle dapat digunakan secara bebas sebagai produk sumber terbuka (open source) di bawah lisensi GNU. Moodle dapat diinstal di komputer dan sistem operasi apapun yang bisa menjalankan PHP dan mendukung database SQL. 
+  </p>
+</p>
 
 # Instalasi Moodle
 ```bash
