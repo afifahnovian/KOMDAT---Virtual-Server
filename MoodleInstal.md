@@ -154,7 +154,7 @@ sudo chmod -R 755 /var/www/html/moodle/
 sudo chown www-data /var/www/html/moodledata
 ```
 
-### Step 6 : Configure Apache2 HTTP server
+### Step 6 : Konfigurasi Apache2 HTTP server
 
 Membuat host virtual bernama moodle.conf. Untuk membuatnya, kita akan menjalankan
 ```
@@ -179,7 +179,7 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
  
 </VirtualHost>
 ```
-Klik ctrl+x lalu Y dan enter
+Klik **ctrl+x** lalu **Y** dan **enter**
 
 Selanjutnya, aktifkan file host virtual Apache dengan menjalankannya
 ```
@@ -191,3 +191,24 @@ Untuk melakukan perubahan, muat ulang server web Apache
 systemctl restart apache2
 ```
 
+### Step 7 : Setting up Moodle melalui web browser
+
+Setelah melakukan restart pada Apache web server, selanjutnya buka browser dan akses link berikut dengan didahului alamat server IP anda seperti berikut :
+```
+http://your-server-IP/moodle/install.php
+```
+Pada kesempatan kali ini, kami melakukan akses dengan menggunakan link berikut **localhost:8000/moodle/install.php**
+
+Link tersebut akan melakukan redirect ke laman web seperti dibawah ini yang akan meminta anda untuk memilih bahasa yang akan digunakan. Pilih bahasa yang anda kehendaki lalu klik *Next*.
+![installmoodle1](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle1.PNG)
+
+Sebelum menentukan direktori data, jika anda belum mebuat sebelumnya, dapat dilakukan dengan membuat direktori baru untuk data moodle pada home directory anda dengan step-step seperti dibawah ini :
+* Buat direktori moodle baru pada home
+* Ubah permission menjadi **777***. Ini berguna untuk membuat user, groups, dan other dapat melakukan operasi *read, write*, dan *execute*.
+![installmoodle2](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle2.PNG)
+
+Setelah itu, anda akan diteruskan ke laman dibawah ini dimana anda akan melakukan verifikasi ***path*** ke direktori moodle dan penyimpanan data. Jika sudah sesuai, silahkan klik *Next*
+![installmoodle3](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle3.PNG)
+
+Pada bagian selanjutnya, pilih Improved MySQL(Native/mysqli) sebagai tipe *Database type* lalu klik *Next*
+![installmoodle4](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle4.PNG)
