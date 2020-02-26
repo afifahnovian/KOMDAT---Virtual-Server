@@ -15,30 +15,34 @@ MOODLE (singkatan dari Modular Object-Oriented Dynamic Learning Environment) ada
 </p>
 
 # Instalasi Moodle
-```bash
+
+## Step 1: Install Apache HTTP web server
+
+akses vm dari host
 ```
-### Step 1: Install Apache HTTP web server
-```bash
-#akses vm dari host
 ssh student@localhost -p 2200
-
-#update and upgrade sistem repositories
+```
+update and upgrade sistem repositories
+```
 sudo apt update -y && sudo apt upgrade -y
-
-#install apache2
+```
+install apache2
+```
 sudo apt install apache2
-
-#start Apache2 HTTP server 
+```
+start Apache2 HTTP server 
+```
 systemctl start apache2
-
-#Cek status Apache2 HTTP server
+```
+Cek status Apache2 HTTP server
+```
 systemctl status apache2
-
+```
 --masukkan gambar SS--
 
-```
+
 ### Step 2: Install MySQL and PHP
-```bash
+
 #Install
 sudo apt install mysql-client mysql-server php libapache2-mod-php
 
