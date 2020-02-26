@@ -202,7 +202,7 @@ Pada kesempatan kali ini, kami melakukan akses dengan menggunakan link berikut *
 Link tersebut akan melakukan redirect ke laman web seperti dibawah ini yang akan meminta anda untuk memilih bahasa yang akan digunakan. Pilih bahasa yang anda kehendaki lalu klik *Next*.
 ![installmoodle1](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle1.PNG)
 
-Sebelum menentukan direktori data, jika anda belum mebuat sebelumnya, dapat dilakukan dengan membuat direktori baru untuk data moodle pada home directory anda dengan step-step seperti dibawah ini :
+Sebelum menentukan direktori data, jika anda belum mebuat sebelumnya, dapat dilakukan dengan membuat direktori baru untuk data moodle pada home directory anda dengan step-step seperti dibawah ini:
 * Buat direktori moodle baru pada home
 * Ubah permission menjadi **777***. Ini berguna untuk membuat user, groups, dan other dapat melakukan operasi *read, write*, dan *execute*.
 ![installmoodle2](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle2.PNG)
