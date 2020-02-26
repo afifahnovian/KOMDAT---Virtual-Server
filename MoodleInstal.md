@@ -135,6 +135,38 @@ sudo chown www-data /var/www/html/moodledata
 
 ```
 ### Step 6 : Configure Apache2 HTTP server
+```bash
+#Membuat host virtual bernama moodle.conf. Untuk membuatnya, kita akan menjalankan
+sudo nano /etc/apache2/sites-available/moodle.conf
+
+#Paste kode di bawah ini. Harap ingat untuk mengganti bagian yang diberi kutip dua dengan nama domain server kita
+<VirtualHost *:80>
+ServerAdmin admin@example.com
+DocumentRoot /var/www/html/moodle/
+ServerName "example.com"
+ServerAlias "www.example.com"
+ 
+<Directory /var/www/html/moodle/>
+Options +FollowSymlinks
+AllowOverride All
+Require all granted
+</Directory>
+ 
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+ 
+</VirtualHost>
+
+#Klik ctrl+x lalu Y dan enter
+
+#Selanjutnya, aktifkan file host virtual Apache dengan menjalankannya
+sudo a2enmod rewrite
+sudo a2ensite moodle.conf
+
+#Untuk melakukan perubahan, muat ulang server web Apache
+systemctl restart apache2
 
 
+
+```
 
