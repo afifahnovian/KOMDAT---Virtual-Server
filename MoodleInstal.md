@@ -228,7 +228,6 @@ Setelah data sudah terisi dan sesuai, akun anda berhasil dibuat dan akan menampi
 ![moodle web](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/moodleweb.JPG)
 
 Moodle sudah siap digunakan. 
-<<<<<<< HEAD
 
 ### Kelebihan MOODLE
 1. Sistem jaringan dan juga keamanan yang dapat disetting sendiri.
@@ -247,5 +246,3 @@ Moodle sudah siap digunakan.
 2. Perlunya tenaga ahli yang bertugas sebagai administrator untuk memaintenance dan juga membangun system e-learningnya
 3. Memerlukan hardware yang lumayan bagus dan juga harus mengeluarkan biaya yang sedikit lebih.
 
-=======
->>>>>>> 6b87576dc895f222e7a6cf679f62c34ad9937640
