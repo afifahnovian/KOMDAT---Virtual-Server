@@ -205,7 +205,7 @@ Link tersebut akan melakukan redirect ke laman web seperti dibawah ini yang akan
 
 Sebelum menentukan direktori data, jika anda belum mebuat sebelumnya, dapat dilakukan dengan membuat direktori baru untuk data moodle pada home directory anda dengan step-step seperti dibawah ini:
 * Buat direktori moodle baru pada home
-* Ubah permission menjadi **777***. Ini berguna untuk membuat user, groups, dan other dapat melakukan operasi *read, write*, dan *execute*.
+* Ubah permission menjadi **777**. Ini berguna untuk membuat user, groups, dan other dapat melakukan operasi *read, write*, dan *execute*.
 ![installmoodle2](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle2.PNG)
 
 Setelah itu, anda akan diteruskan ke laman dibawah ini dimana anda akan melakukan verifikasi ***path*** ke direktori moodle dan penyimpanan data. Jika sudah sesuai, silahkan klik *Next*
@@ -228,6 +228,7 @@ Setelah data sudah terisi dan sesuai, akun anda berhasil dibuat dan akan menampi
 ![moodle web](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/moodleweb.JPG)
 
 Moodle sudah siap digunakan. 
+<<<<<<< HEAD
 
 ### Kelebihan MOODLE
 1. Sistem jaringan dan juga keamanan yang dapat disetting sendiri.
@@ -246,3 +247,5 @@ Moodle sudah siap digunakan.
 2. Perlunya tenaga ahli yang bertugas sebagai administrator untuk memaintenance dan juga membangun system e-learningnya
 3. Memerlukan hardware yang lumayan bagus dan juga harus mengeluarkan biaya yang sedikit lebih.
 
+=======
+>>>>>>> 6b87576dc895f222e7a6cf679f62c34ad9937640
