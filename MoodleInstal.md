@@ -205,7 +205,7 @@ Link tersebut akan melakukan redirect ke laman web seperti dibawah ini yang akan
 
 Sebelum menentukan direktori data, jika anda belum mebuat sebelumnya, dapat dilakukan dengan membuat direktori baru untuk data moodle pada home directory anda dengan step-step seperti dibawah ini:
 * Buat direktori moodle baru pada home
-* Ubah permission menjadi **777***. Ini berguna untuk membuat user, groups, dan other dapat melakukan operasi *read, write*, dan *execute*.
+* Ubah permission menjadi **777**. Ini berguna untuk membuat user, groups, dan other dapat melakukan operasi *read, write*, dan *execute*.
 ![installmoodle2](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installmoodle2.PNG)
 
 Setelah itu, anda akan diteruskan ke laman dibawah ini dimana anda akan melakukan verifikasi ***path*** ke direktori moodle dan penyimpanan data. Jika sudah sesuai, silahkan klik *Next*
