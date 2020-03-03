@@ -228,3 +228,21 @@ Setelah data sudah terisi dan sesuai, akun anda berhasil dibuat dan akan menampi
 ![moodle web](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/moodleweb.JPG)
 
 Moodle sudah siap digunakan. 
+
+### Kelebihan MOODLE
+1. Sistem jaringan dan juga keamanan yang dapat disetting sendiri.
+2. Ruang akses yang dapat dibatasi dengan jaringan yang dibuat. Karena masing masing user memiliki hak akses yang berbeda
+3. System pembelajaran yang dapat disesuaikan dengan kebutuhan user.
+4. Kelengkapan fitur meliputi fitur untuk komunikasi (chatting, messaging, atau forum)
+	- Fitur untuk pembuatan dan administrasi materi pembelajaran
+	- Fitur untuk melacak dan mengikuti perkembangan proses pembelajaran (tracking data) dengan user interface yang mudah dipahami
+	- Fitur untuk perluasan fitur (ekstensibilitas plugin) yang fleksibel dengan dukungan fasilitas dokumentasi API (guideline, dan template untuk programming).
+5. Proses custumizng yang relative mudah dan banyak.
+6. Tersedia secara gratis
+	Sebagai perangkat-lunak open source (di bawah lisensi GNU Public License), MOODLE memberikan kebebasan untuk mengkopi, menggunakan, dan memodifikasinya
+
+### Kekurangan MOODLE 
+1. Membutuhkan pemahaman yang lebih tentang system yang ada pada moodle
+2. Perlunya tenaga ahli yang bertugas sebagai administrator untuk memaintenance dan juga membangun system e-learningnya
+3. Memerlukan hardware yang lumayan bagus dan juga harus mengeluarkan biaya yang sedikit lebih.
+
