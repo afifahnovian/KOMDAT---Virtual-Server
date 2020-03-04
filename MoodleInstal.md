@@ -46,6 +46,7 @@ Cek status Apache2 HTTP server
 ```
 systemctl status apache2
 ```
+![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/apache.PNG)
 --masukkan gambar SS--
 
 
@@ -67,7 +68,12 @@ Untuk mengamankan database MySQL sebelum membuat database
 ```
 mysql_secure_installation
 ```
----masukkan SS ---
+![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installation mysql1.PNG)
+
+![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installation mysql2.PNG)
+
+![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installation mysql3.PNG)
+
 Ada beberapa pertanyaan yang harus dijawab :
 - New passwords :
   Enter new passwords
