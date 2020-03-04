@@ -68,11 +68,15 @@ Untuk mengamankan database MySQL sebelum membuat database
 ```
 mysql_secure_installation
 ```
-![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installation mysql1.PNG)
-
-![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installation mysql2.PNG)
-
-![db](https://github.com/afifahnovian/KOMDAT---Virtual-Server/blob/master/installation mysql3.PNG)
+<p align="center">
+  <img  src="installation mysql1.PNG">
+</p>
+<p align="center">
+  <img src="installation mysql2.PNG">
+</p>
+<p align="center">
+  <img src="installation mysql3.PNG">
+</p>
 
 Ada beberapa pertanyaan yang harus dijawab :
 - New passwords :
@@ -87,7 +91,9 @@ Setting configuration mysql
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 Tampilan mysql setelah disetting
----masukkan SS---
+<p align="center">
+  <img src="mysqldb.PNG">
+</p>
 
 Masukkan command line berikut di mysqld
 ```
@@ -96,7 +102,9 @@ innodb_file_per_table = 1
 innodb_file_format = Barracuda
 innodb_large_prefix = 1
 ```
-----masukkan gambar------
+<p align="center">
+  <img src="mysql_isidata.PNG">
+</p>
 
 Ctrl X untuk save dan exit
 
@@ -111,6 +119,9 @@ Untuk menginstall moodle , diperlukan software packages tambahan. Untuk menginst
 ```
 sudo apt install graphviz aspell ghostscript clamav php7.2-pspell php7.2-curl php7.2-gd php7.2-intl php7.2-mysql php7.2-xml php7.2-xmlrpc php7.2-ldap php7.2-zip php7.2-soap php7.2-mbstring
 ```
+<p align="center">
+  <img src="install_packages_software.PNG">
+</p>
 
 ### Step 4 : Buat Database pada moodle
 Setelah menginstall packages yang dibutuhkan untuk instalasi moodle, kita perlu membuat Moodle Database dan Moodle MySQL server
@@ -148,7 +159,9 @@ Download moodle versi 3.8
 ```
 wget https://download.moodle.org/download.php/direct/stable38/moodle-latest-38.tgz
 ```
---masukkan gambar--
+<p align="center">
+  <img src="downloadmoodle1.PNG">
+</p>
 
 Extract tarballfile
 ```
