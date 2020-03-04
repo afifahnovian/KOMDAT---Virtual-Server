@@ -246,3 +246,20 @@ Moodle sudah siap digunakan.
 2. Perlunya tenaga ahli yang bertugas sebagai administrator untuk memaintenance dan juga membangun system e-learningnya
 3. Memerlukan hardware yang lumayan bagus dan juga harus mengeluarkan biaya yang sedikit lebih.
 
+# Contoh platform Learning Management System lainnya
+
+### Google Classroom
+Google Clasroom merupakan sebuah kelas virtual yang menyediakan tempat bagi siswa untuk dapat berinteraksi, berkomunikasi, berdiskusi, dan bekerja sama dalam sebuah kelompok pada sebuah sistem daring. Google Classroom merupakah sebuah LMS karena memungkinkan siswa untuk berpartisipasi secar individual dalam sebuah pembelajaran. Google Classroom dapat digunakan juga oleh guru yang dapat melakukan penentuan deadline waktu pengumpulan tugas, memantau, mereview dan memberikan feedback untuk tugas-tugas para siswa. Siswa sendiri memiliki fitur untuk langsung terhubung melalui Google Drive. Beberpa keunggulan dari Google Classroom adalah :
+- Gratis dan mudah
+- Sistem yan terintegrasi (Youtube, Gmail, Drive, Google Docs)
+- Kemudahan dalam penugasan
+- Fitur assessment (Quiz dan semacamnya)
+- Forum diskusi
+
+### Schoology
+Schoology merupakan salah satu LMS dengan memasukkan sistem pembelajaran dalam jejaring sosial. Fitur menarik yang terdapat dalam Schoology antara lain kelas mata pelajaran, kelompok belajar, maupun sumber belajar. Beberapa keunggulan Schoology sebagai LMS adalah :
+- Penggunaan alat sosial seperti ruang diskusi, posting blog, dan pengumuman
+- Sistem untuk penilaian dan kuis yang memiliki batas waktu
+- Penyimpanan berbasis Cloud
+- Notifikasi melalui email dan SMS bagi para siswa
+- Pemantauan kehadiran berbasis web
