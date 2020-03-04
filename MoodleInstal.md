@@ -22,6 +22,14 @@ Akses vm dari host
 ```
 ssh student@localhost -p 2200
 ```
+Set Repositories
+```
+sudo tee /etc/apt/sources.list << !
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic          main restricted universe multiverse
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse
+deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse
+!
+```
 Update and upgrade sistem repositories
 ```
 sudo apt update -y && sudo apt upgrade -y
